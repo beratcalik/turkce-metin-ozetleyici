@@ -96,11 +96,11 @@ Model, girilen metinlerdeki temel fikirleri başarılı bir şekilde yakalayarak
 
 #### Girdi(Metin)
 
-Yapay zeka, günümüzde birçok sektörde devrim yaratmaktadır. Sağlık alanında teşhis süreçlerini hızlandırmakta, finans sektöründe ise dolandırıcılıkları önlemeye yardımcı olmaktadır. Eğitimde kişiselleştirilmiş öğrenme deneyimleri sunarken, üretim sektöründe robotlar sayesinde verimliliği artırmaktadır.
+`Yapay zeka, günümüzde birçok sektörde devrim yaratmaktadır. Sağlık alanında teşhis süreçlerini hızlandırmakta, finans sektöründe ise dolandırıcılıkları önlemeye yardımcı olmaktadır. Eğitimde kişiselleştirilmiş öğrenme deneyimleri sunarken, üretim sektöründe robotlar sayesinde verimliliği artırmaktadır.`
 
 #### Model Çıktısı (Özet):
 
-Yapay zeka, sağlık, finans ve eğitim gibi alanlarda verimliliği artırmakta ve önemli değişimler sağlamaktadır.
+`Yapay zeka, sağlık, finans ve eğitim gibi alanlarda verimliliği artırmakta ve önemli değişimler sağlamaktadır.`
 
 ### 4.Discussion (Tartışma):
 
@@ -124,5 +124,6 @@ Gelecekte bu projeye şu özellikler eklenebilir:
 -Farklı model karşılaştırmaları (T5, BART, Pegasus, vb.)
 
 ### Hazırlayan
-Berat Çalık
+`Berat Çalık`
+
 Ankara Üniversitesi - Yapay Zeka ve Veri Mühendisliği
