@@ -95,13 +95,17 @@ print("\n📌 Özet:\n", ozet)
 Model, girilen metinlerdeki temel fikirleri başarılı bir şekilde yakalayarak 1-2 cümlelik anlamlı özetler üretmektedir. Aşağıda örnek bir sonuç verilmiştir:
 
 #### Girdi(Metin)
-
-`Yapay zeka, günümüzde birçok sektörde devrim yaratmaktadır. Sağlık alanında teşhis süreçlerini hızlandırmakta, finans sektöründe ise dolandırıcılıkları önlemeye yardımcı olmaktadır. Eğitimde kişiselleştirilmiş öğrenme deneyimleri sunarken, üretim sektöründe robotlar sayesinde verimliliği artırmaktadır.`
-
+```python
+metin = """
+Yapay zeka, günümüzde birçok sektörde devrim yaratmaktadır. Sağlık alanında teşhis süreçlerini hızlandırmakta, finans sektöründe ise dolandırıcılıkları önlemeye yardımcı olmaktadır. Eğitimde kişiselleştirilmiş öğrenme deneyimleri sunarken, üretim sektöründe robotlar sayesinde verimliliği artırmaktadır.
+"""
+```
 #### Model Çıktısı (Özet):
-
-`Yapay zeka, sağlık, finans ve eğitim gibi alanlarda verimliliği artırmakta ve önemli değişimler sağlamaktadır.`
-
+```python
+özet = """
+Yapay zeka, sağlık, finans ve eğitim gibi alanlarda verimliliği artırmakta ve önemli değişimler sağlamaktadır.
+"""
+```
 ---
 
 ### 4.Discussion (Tartışma):
