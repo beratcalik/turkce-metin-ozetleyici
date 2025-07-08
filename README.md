@@ -132,6 +132,8 @@ Gelecekte bu projeye şu özellikler eklenebilir:
 - **PyTorch** 
 - **SentencePiece**
 
+---
+
 ### Hazırlayan
 Berat Çalık
 
