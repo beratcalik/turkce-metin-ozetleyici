@@ -88,7 +88,7 @@ print("\n📌 Özet:\n", ozet)
 ```
 
  - Bu satır, kullanıcının verdiği metne karşılık üretilen özeti terminalde gösterir.
-
+---
 
 ### 3. Results (Sonuçlar)
 
@@ -101,6 +101,8 @@ Model, girilen metinlerdeki temel fikirleri başarılı bir şekilde yakalayarak
 #### Model Çıktısı (Özet):
 
 `Yapay zeka, sağlık, finans ve eğitim gibi alanlarda verimliliği artırmakta ve önemli değişimler sağlamaktadır.`
+
+---
 
 ### 4.Discussion (Tartışma):
 
@@ -122,6 +124,8 @@ Gelecekte bu projeye şu özellikler eklenebilir:
  - Çoklu metin yükleme ve toplu özetleme
 
  - Farklı model karşılaştırmaları (T5, BART, Pegasus, vb.)
+
+---
 
 ### Hazırlayan
 `Berat Çalık`
