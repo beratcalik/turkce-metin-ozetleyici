@@ -29,9 +29,9 @@ model_name = "csebuetnlp/mT5_multilingual_XLSum"
 tokenizer = MT5Tokenizer.from_pretrained(model_name)
 model = MT5ForConditionalGeneration.from_pretrained(model_name)
 ```
--`MT5Tokenizer`: Kullanıcının girdiği metni modele uygun sayısal formata (token'lara) çevirir.
+ - `MT5Tokenizer`: Kullanıcının girdiği metni modele uygun sayısal formata (token'lara) çevirir.
 
--`MT5ForConditionalGeneration`: Verilen input'a karşılık bir output (özet) üretir.
+ - `MT5ForConditionalGeneration`: Verilen input'a karşılık bir output (özet) üretir.
 
 #### 3. Kullanıcıdan Metin Alma
 
