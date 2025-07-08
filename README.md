@@ -128,6 +128,6 @@ Gelecekte bu projeye şu özellikler eklenebilir:
 ---
 
 ### Hazırlayan
-`Berat Çalık`
+Berat Çalık
 
 Ankara Üniversitesi - Yapay Zeka ve Veri Mühendisliği
