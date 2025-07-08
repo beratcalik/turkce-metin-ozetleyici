@@ -127,10 +127,10 @@ Gelecekte bu projeye şu özellikler eklenebilir:
 
 ---
 
-** Kullanılan Teknolojiler: **
-- ** Transformers **
-- ** PyTorch ** 
-- ** SentencePiece **
+**Kullanılan Teknolojiler:**
+- **Transformers**
+- **PyTorch** 
+- **SentencePiece**
 
 ### Hazırlayan
 Berat Çalık
