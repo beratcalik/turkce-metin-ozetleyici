@@ -90,7 +90,6 @@ print("\n📌 Özet:\n", ozet)
 -Bu satır, kullanıcının verdiği metne karşılık üretilen özeti terminalde gösterir.
 
 
-
 ### 3. Results (Sonuçlar)
 
 Model, girilen metinlerdeki temel fikirleri başarılı bir şekilde yakalayarak 1-2 cümlelik anlamlı özetler üretmektedir. Aşağıda örnek bir sonuç verilmiştir:
