@@ -79,7 +79,7 @@ ozet = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
 -Token ID'leri tekrar anlaşılır Türkçe cümleye çevrilir.
 
--skip_special_tokens=True özel sembolleri ("<pad>", "<s>") filtreler.
+-skip_special_tokens=True özel sembolleri (`<pad>`, `<s>`) filtreler.
 
 #### 7. Özetin Ekrana Yazdırılması
 
