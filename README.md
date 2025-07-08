@@ -29,9 +29,9 @@ model_name = "csebuetnlp/mT5_multilingual_XLSum"
 tokenizer = MT5Tokenizer.from_pretrained(model_name)
 model = MT5ForConditionalGeneration.from_pretrained(model_name)
 ```
--MT5Tokenizer: Kullanıcının girdiği metni modele uygun sayısal formata (token'lara) çevirir.
+-`MT5Tokenizer`: Kullanıcının girdiği metni modele uygun sayısal formata (token'lara) çevirir.
 
--MT5ForConditionalGeneration: Verilen input'a karşılık bir output (özet) üretir.
+-`MT5ForConditionalGeneration`: Verilen input'a karşılık bir output (özet) üretir.
 
 #### 3. Kullanıcıdan Metin Alma
 
@@ -45,11 +45,11 @@ metin = input("📥 Özetlenecek metni giriniz: ")
 ```python
 inputs = tokenizer(metin, return_tensors="pt", max_length=512, truncation=True)
 ```
--return_tensors="pt": Çıktının PyTorch tensörü olmasını sağlar.
+-`return_tensors`="pt": Çıktının PyTorch tensörü olmasını sağlar.
 
--max_length=512: Maksimum token uzunluğu, model sınırıdır.
+-`max_length=512`: Maksimum token uzunluğu, model sınırıdır.
 
--truncation=True: Uzun metinleri otomatik olarak keser.
+-`truncation`=True: Uzun metinleri otomatik olarak keser.
 
 #### 5.Model ile Özet Üretme
 
@@ -63,13 +63,13 @@ summary_ids = model.generate(
     early_stopping=True
 )
 ```
--max_length / min_length: Üretilecek özetin uzunluk sınırları.
+-`max_length / min_length`: Üretilecek özetin uzunluk sınırları.
 
--length_penalty=2.0: Daha kısa ve öz cümleler üretmesini sağlar.
+-`length_penalty=2.0`: Daha kısa ve öz cümleler üretmesini sağlar.
 
--num_beams=4: Beam Search algoritması ile daha iyi sonuçlar üretir.
+-`num_beams=4`: Beam Search algoritması ile daha iyi sonuçlar üretir.
 
--early_stopping: Uygun uzunlukta durmasını sağlar.
+-`early_stopping`: Uygun uzunlukta durmasını sağlar.
 
 #### 6. Model Çıktısını Metne Dönüştürme
 ```python
@@ -79,7 +79,7 @@ ozet = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
 
 -Token ID'leri tekrar anlaşılır Türkçe cümleye çevrilir.
 
--skip_special_tokens=True özel sembolleri (`<pad>`, `<s>`) filtreler.
+-`skip_special_tokens`=True özel sembolleri (`<pad>`, `<s>`) filtreler.
 
 #### 7. Özetin Ekrana Yazdırılması
 
