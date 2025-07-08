@@ -96,14 +96,18 @@ Model, girilen metinlerdeki temel fikirleri başarılı bir şekilde yakalayarak
 
 #### Girdi(Metin)
 ```python
-metin = """
-Yapay zeka, günümüzde birçok sektörde devrim yaratmaktadır. Sağlık alanında teşhis süreçlerini hızlandırmakta, finans sektöründe ise dolandırıcılıkları önlemeye yardımcı olmaktadır. Eğitimde kişiselleştirilmiş öğrenme deneyimleri sunarken, üretim sektöründe robotlar sayesinde verimliliği artırmaktadır.
+"""
+Yapay zeka, günümüzde birçok sektörde devrim yaratmaktadır. Sağlık alanında teşhis
+süreçlerini hızlandırmakta, finans sektöründe ise dolandırıcılıkları önlemeye
+yardımcı olmaktadır. Eğitimde kişiselleştirilmiş öğrenme deneyimleri sunarken,
+üretim sektöründe robotlar sayesinde verimliliği artırmaktadır.
 """
 ```
 #### Model Çıktısı (Özet):
 ```python
-özet = """
-Yapay zeka, sağlık, finans ve eğitim gibi alanlarda verimliliği artırmakta ve önemli değişimler sağlamaktadır.
+"""
+Yapay zeka, sağlık, finans ve eğitim gibi alanlarda verimliliği artırmakta
+ve önemli değişimler sağlamaktadır.
 """
 ```
 ---
