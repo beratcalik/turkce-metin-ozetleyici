@@ -106,7 +106,7 @@ Model, girilen metinlerdeki temel fikirleri başarılı bir şekilde yakalayarak
 
 ### 4.Discussion (Tartışma):
 
-- mT5 modeli, çok dilli eğitim verisi sayesinde Türkçe dilinde de oldukça başarılı özetleme sonuçları vermektedir. Ancak bazı sınırlamalar da mevcuttur:
+mT5 modeli, çok dilli eğitim verisi sayesinde Türkçe dilinde de oldukça başarılı özetleme sonuçları vermektedir. Ancak bazı sınırlamalar da mevcuttur:
 
  - Çok uzun metinlerde model giriş sınırını (512 token) aşarsa bazı bilgiler kırpılabilir.
 
@@ -115,7 +115,7 @@ Model, girilen metinlerdeki temel fikirleri başarılı bir şekilde yakalayarak
  - Modelin özet uzunluğu sabittir, dinamik kontrol zordur.
 
 
-- Gelecekte bu projeye şu özellikler eklenebilir:
+ Gelecekte bu projeye şu özellikler eklenebilir:
 
  - Web arayüzü (Streamlit veya Flask)
 
